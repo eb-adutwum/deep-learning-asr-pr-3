@@ -95,8 +95,8 @@ def load_model():
 
     try:
         # Initialize the wrapper class
-        # Defaulting to whisper-base as per previous context
-        model = PretrainedASRModel(model_name='openai/whisper-base')
+        # The error indicates the checkpoint is size 384 (Tiny), not 512 (Base)
+        model = PretrainedASRModel(model_name='openai/whisper-tiny')
         
         # Load state dict
         # We use strict=False to be lenient with minor mismatches if any
