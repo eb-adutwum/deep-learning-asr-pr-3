@@ -1,0 +1,7 @@
+streamlit
+torch
+torchaudio
+transformers
+soundfile
+numpy
+pandas

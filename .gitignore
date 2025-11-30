@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.ipynb_checkpoints/
+checkpoints/
+reports/
+visualizations/
+
+# App specific
+temp_recording.wav
+*.wav
+
+# Large files (tracked by LFS, but good to be explicit if we weren't using LFS)
+# We WILL track .pt files with LFS, so we don't ignore them here.
